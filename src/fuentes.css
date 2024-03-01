@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+h1{
+    font-family: Barlow Semi Condensed !important;
+    font-size: 40px !important; 
+    font-style: normal !important;
+    font-weight: 500 !important;
+}
+h2{
+    font-family: Barlow Semi Condensed !important;
+    font-size: 30px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+}
+h3{
+    font-family: Kulim Park !important;
+    font-weight: 490 !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    line-height: 140.5% !important;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+@media screen and (max-width: 767px) {
+    /* Estilos para dispositivos móviles, como celulares */
+    h1{
+        font-size: 35px !important;
+    }
+    h2{
+        font-size: 25px !important;
+    }
+    h3{
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para tablets */
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 18px;
+    }
+}

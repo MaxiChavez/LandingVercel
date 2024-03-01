@@ -1,0 +1,92 @@
+.cardOffers {
+  border: solid 1px rgb(231, 229, 229);
+  border-radius: 10px;
+  padding: 7%;
+  -webkit-box-shadow: 3px 11px 6px -8px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 3px 11px 6px -8px rgba(0, 0, 0, 0.51);
+  box-shadow: 3px 11px 6px -8px rgba(0, 0, 0, 0.51);
+  margin-bottom: 7%;
+  -webkit-box-shadow: 3px 11px 6px -8px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 3px 11px 6px -8px rgba(0, 0, 0, 0.51);
+  box-shadow: 3px 11px 6px -8px rgba(0, 0, 0, 0.51);
+  width: 90%;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out,
+    border-color 0.3s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+.cardOffers:hover {
+  background-color: #001745;
+  border: solid 1px #001745;
+
+  border-radius: 10px;
+  padding: 7%;
+  -webkit-box-shadow: 3px 11px 6px -8px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 3px 11px 6px -8px rgba(0, 0, 0, 0.51);
+  box-shadow: 3px 11px 6px -8px rgba(0, 0, 0, 0.51);
+}
+/* .cardOffers:hover .imgCard {
+  content: url(../../../Resources/images/mobile.svg);
+} */
+
+.cardOffers:hover .hDosCard,
+.cardOffers:hover .hTresCard {
+  color: aliceblue;
+  text-shadow: 0px 1px 3px rgba(255, 255, 255, 0.333);
+}
+#titleOffer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 7em;
+  color: #000;
+  line-height: normal;
+  text-transform: uppercase;
+}
+#divImage {
+  width: 60px;
+  height: 70px;
+  max-width: 62px;
+  max-height: 70px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.imgCard {
+  /* width: 20%; */
+  size: auto;
+  margin-bottom: 5px;
+
+  width: auto;
+  height: auto;
+}
+
+.hDosCard {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: #000;
+  line-height: normal;
+  letter-spacing: -0.9px;
+  text-transform: uppercase;
+}
+
+.hTresCard {
+  color: #000;
+  line-height: 140.5%;
+}
+
+@media screen and (max-width: 767px) {
+  /* Estilos para dispositivos móviles, como celulares */
+  #titleOffer {
+    margin-top: 0em;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Estilos para tablets */
+  #titleOffer {
+    margin-top: 1em;
+  }
+}

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+#iconos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 7%;
+}
+
+#tituloIcon {
+  font-family: Barlow Semi Condensed !important;
+  font-size: 30px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  text-align: center;
+  margin-top: 3em;
+}
+
+/* tablet (2 en 2) */
+@media (max-width: 768px) {
+  #iconos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* celus (1 en 1) */
+@media (max-width: 480px) {
+  #iconos {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10%;
+
+    justify-items: start;
+  }
+}
+
+#tituloIcon {
+  font-family: "Barlow Semi Condensed", sans-serif !important;
+  font-size: 30px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  text-align: center;
+  margin-top: 3em;
+}

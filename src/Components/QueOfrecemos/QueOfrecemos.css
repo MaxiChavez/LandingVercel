@@ -1,0 +1,28 @@
+.queOfrecemos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  margin-top: 5em;
+}
+
+#amaras {
+  color: #0045d0;
+}
+
+@media screen and (max-width: 767px) {
+  /* Estilos para dispositivos móviles, como celulares */
+  .queOfrecemos {
+    grid-template-columns: 1fr;
+    margin-top: 4em;
+    padding: 10%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Estilos para tablets */
+
+  .queOfrecemos {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1em;
+  }
+}
