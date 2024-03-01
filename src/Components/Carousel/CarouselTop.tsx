@@ -1,8 +1,8 @@
 import Carousel from "react-bootstrap/Carousel";
 import "./CarouselTop.css";
 import uno from "../../Resources/images/1.jpg";
-import cuatro from "../../Resources/images/dosSi.png";
-import siete from "../../Resources/images/tresSi.png";
+import cuatro from "/Resources/images/dosSI.png";
+import siete from "/Resources/images/tresSi.png";
 
 const CarouselTop = () => {
   return (
